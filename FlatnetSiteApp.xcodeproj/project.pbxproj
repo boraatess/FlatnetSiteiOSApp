@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33096F1D2E82051500EDEDDB /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = 33096F1C2E82051500EDEDDB /* iOSDropDown */; };
+		335AADF52E6A43A800179505 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 335AADF42E6A43A800179505 /* SnapKit */; };
+		335AAE342E7222F300179505 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 335AAE332E7222F300179505 /* SideMenu */; };
+		33A3201F2E84BF2B00005496 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 33A3201E2E84BF2B00005496 /* Alamofire */; };
+		33A3204C2E8C332300005496 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 33A3204B2E8C332300005496 /* FirebaseCore */; };
+		33A3204E2E8C332300005496 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 33A3204D2E8C332300005496 /* FirebaseCrashlytics */; };
+		33A320502E8C332300005496 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 33A3204F2E8C332300005496 /* FirebaseInAppMessaging-Beta */; };
+		33A320522E8C332300005496 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 33A320512E8C332300005496 /* FirebaseMessaging */; };
+		33A320542E8C34C200005496 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 33A320532E8C34C200005496 /* FirebaseAnalytics */; };
+		33A320562E8C34C200005496 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 33A320552E8C34C200005496 /* FirebaseAnalyticsCore */; };
+		33E30C332E7AF36A006E105B /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 33E30C322E7AF36A006E105B /* IQKeyboardManagerSwift */; };
+		33E30C5D2E7CDC6C006E105B /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 33E30C5C2E7CDC6C006E105B /* SVProgressHUD */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		335AADA72E67BD5E00179505 /* FlatnetSiteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlatnetSiteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		33A3223C2E90748A00005496 /* Exceptions for "FlatnetSiteApp" folder in "FlatnetSiteApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 335AADA62E67BD5E00179505 /* FlatnetSiteApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		335AADA92E67BD5E00179505 /* FlatnetSiteApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				33A3223C2E90748A00005496 /* Exceptions for "FlatnetSiteApp" folder in "FlatnetSiteApp" target */,
+			);
+			path = FlatnetSiteApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335AADA42E67BD5E00179505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E30C5D2E7CDC6C006E105B /* SVProgressHUD in Frameworks */,
+				33096F1D2E82051500EDEDDB /* iOSDropDown in Frameworks */,
+				33A320522E8C332300005496 /* FirebaseMessaging in Frameworks */,
+				33A320502E8C332300005496 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				335AAE342E7222F300179505 /* SideMenu in Frameworks */,
+				33A3201F2E84BF2B00005496 /* Alamofire in Frameworks */,
+				33A320542E8C34C200005496 /* FirebaseAnalytics in Frameworks */,
+				33A320562E8C34C200005496 /* FirebaseAnalyticsCore in Frameworks */,
+				33A3204C2E8C332300005496 /* FirebaseCore in Frameworks */,
+				33A3204E2E8C332300005496 /* FirebaseCrashlytics in Frameworks */,
+				335AADF52E6A43A800179505 /* SnapKit in Frameworks */,
+				33E30C332E7AF36A006E105B /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335AAD9E2E67BD5E00179505 = {
+			isa = PBXGroup;
+			children = (
+				335AADA92E67BD5E00179505 /* FlatnetSiteApp */,
+				335AADA82E67BD5E00179505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		335AADA82E67BD5E00179505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335AADA72E67BD5E00179505 /* FlatnetSiteApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335AADA62E67BD5E00179505 /* FlatnetSiteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335AADBA2E67BD6000179505 /* Build configuration list for PBXNativeTarget "FlatnetSiteApp" */;
+			buildPhases = (
+				335AADA32E67BD5E00179505 /* Sources */,
+				335AADA42E67BD5E00179505 /* Frameworks */,
+				335AADA52E67BD5E00179505 /* Resources */,
+				33A320572E8C352F00005496 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				335AADA92E67BD5E00179505 /* FlatnetSiteApp */,
+			);
+			name = FlatnetSiteApp;
+			packageProductDependencies = (
+				335AADF42E6A43A800179505 /* SnapKit */,
+				335AAE332E7222F300179505 /* SideMenu */,
+				33E30C322E7AF36A006E105B /* IQKeyboardManagerSwift */,
+				33E30C5C2E7CDC6C006E105B /* SVProgressHUD */,
+				33096F1C2E82051500EDEDDB /* iOSDropDown */,
+				33A3201E2E84BF2B00005496 /* Alamofire */,
+				33A3204B2E8C332300005496 /* FirebaseCore */,
+				33A3204D2E8C332300005496 /* FirebaseCrashlytics */,
+				33A3204F2E8C332300005496 /* FirebaseInAppMessaging-Beta */,
+				33A320512E8C332300005496 /* FirebaseMessaging */,
+				33A320532E8C34C200005496 /* FirebaseAnalytics */,
+				33A320552E8C34C200005496 /* FirebaseAnalyticsCore */,
+			);
+			productName = FlatnetSiteApp;
+			productReference = 335AADA72E67BD5E00179505 /* FlatnetSiteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335AAD9F2E67BD5E00179505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					335AADA62E67BD5E00179505 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 335AADA22E67BD5E00179505 /* Build configuration list for PBXProject "FlatnetSiteApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335AAD9E2E67BD5E00179505;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				335AADF32E6A43A800179505 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				335AAE322E7222F300179505 /* XCRemoteSwiftPackageReference "SideMenu" */,
+				33E30C312E7AF36A006E105B /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				33E30C5B2E7CDC6C006E105B /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
+				33096F1B2E82051500EDEDDB /* XCRemoteSwiftPackageReference "iOSDropDown" */,
+				33A3201D2E84BF2B00005496 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				33A3204A2E8C332300005496 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 335AADA82E67BD5E00179505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335AADA62E67BD5E00179505 /* FlatnetSiteApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335AADA52E67BD5E00179505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33A320572E8C352F00005496 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Firebase Crashlytics SPM Run Script\nCRASHLYTICS_PATH=\"${SRCROOT}/../SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n\nif [ -f \"$CRASHLYTICS_PATH\" ]; then\n    echo \"✅ Running Crashlytics upload script\"\n    \"$CRASHLYTICS_PATH\" \"$@\"\nelse\n    echo \"⚠️ Crashlytics run script not found at $CRASHLYTICS_PATH\"\nfi\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335AADA32E67BD5E00179505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		335AADBB2E67BD6000179505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlatnetSiteApp/FlatnetSiteApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32QGKVDU76;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlatnetSiteApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kamera ile fotoğraf çekmek için izin gerekiyor.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Galeriden fotoğraf yükleyebilmek için izin gerekiyor. ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlatnetSiteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		335AADBC2E67BD6000179505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlatnetSiteApp/FlatnetSiteApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32QGKVDU76;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlatnetSiteApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kamera ile fotoğraf çekmek için izin gerekiyor.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Galeriden fotoğraf yükleyebilmek için izin gerekiyor. ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlatnetSiteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		335AADBD2E67BD6000179505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		335AADBE2E67BD6000179505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335AADA22E67BD5E00179505 /* Build configuration list for PBXProject "FlatnetSiteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335AADBD2E67BD6000179505 /* Debug */,
+				335AADBE2E67BD6000179505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335AADBA2E67BD6000179505 /* Build configuration list for PBXNativeTarget "FlatnetSiteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335AADBB2E67BD6000179505 /* Debug */,
+				335AADBC2E67BD6000179505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		33096F1B2E82051500EDEDDB /* XCRemoteSwiftPackageReference "iOSDropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jriosdev/iOSDropDown.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		335AADF32E6A43A800179505 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		335AAE322E7222F300179505 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+		33A3201D2E84BF2B00005496 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		33A3204A2E8C332300005496 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.3.0;
+			};
+		};
+		33E30C312E7AF36A006E105B /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.1;
+			};
+		};
+		33E30C5B2E7CDC6C006E105B /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVProgressHUD/SVProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		33096F1C2E82051500EDEDDB /* iOSDropDown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33096F1B2E82051500EDEDDB /* XCRemoteSwiftPackageReference "iOSDropDown" */;
+			productName = iOSDropDown;
+		};
+		335AADF42E6A43A800179505 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 335AADF32E6A43A800179505 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		335AAE332E7222F300179505 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 335AAE322E7222F300179505 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		33A3201E2E84BF2B00005496 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33A3201D2E84BF2B00005496 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		33A3204B2E8C332300005496 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33A3204A2E8C332300005496 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		33A3204D2E8C332300005496 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33A3204A2E8C332300005496 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		33A3204F2E8C332300005496 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33A3204A2E8C332300005496 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		33A320512E8C332300005496 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33A3204A2E8C332300005496 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		33A320532E8C34C200005496 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33A3204A2E8C332300005496 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		33A320552E8C34C200005496 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33A3204A2E8C332300005496 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		33E30C322E7AF36A006E105B /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33E30C312E7AF36A006E105B /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		33E30C5C2E7CDC6C006E105B /* SVProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33E30C5B2E7CDC6C006E105B /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
+			productName = SVProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 335AAD9F2E67BD5E00179505 /* Project object */;
+}
